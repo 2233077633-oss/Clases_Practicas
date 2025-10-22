@@ -1,0 +1,25 @@
+//Clase 04
+
+s.boot;
+s.meter;
+s.scope;
+s.fregscope;
+s.quit;
+
+
+p=ProxySpace.push(s.boot);
+(
+~seq=Pbind(
+	\dur,Pseq([0.5, 0.25, 0.25],inf),
+	\amp, 0.4,
+	\degree, Prand([0,1,2,3,4,5,6],inf),
+	\scale, Scale.major
+)
+),
+Scale.directory
+~seq.play;
+~seq.pause;
+~seq.resume;
+~seq.stop;
+
+p.clear;

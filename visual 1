@@ -1,0 +1,7 @@
+Hydra tarea visul 1
+//salasehdpr
+
+render(o0)
+
+
+voronoi(50).color(1,0,2).pixelate(2).scrollX(20).repeat(3.0, 3.0, 0.0, 0.0).scale(0.2).modulate(voronoi(50).modulate(noise(5),1)).out()

@@ -1,0 +1,23 @@
+ejemplo 2
+
+
+
+
+voronoi(2).rotate( () => time%350 ).thresh(0.5,0.04).scrollX(20).repeat(1.0, 3.0, 0.0, 0.0).scale(0.2).modulate(shape(2).modulate(noise(5),1)).out()
+
+
+
+
+
+
+
+//noise(2).rotate( () => time%350 ).posterize( [1, 5, 15, 30] , 0.5 ).scrollX(10).repeat(1.0, 3.0, 0.0, 0.0).scale(0.2).modulate(noise(2).modulate(voronoi(5),1)).out()
+
+//noise(2).pixelate(5).color(1,2,0).modulate(shape(2).modulate(noise(2),2)).out()
+
+//  .repeat(1.0, 2.0, 0.0, 0.0)
+//  .rotate( () => time%350 ).thresh(0.5,0.04)
+//  .posterize( [1, 5, 15, 30] , 0.5 )
+//  .modulate(noise(3)
+//            .modulate(noise(5),2))
+//  .out()
